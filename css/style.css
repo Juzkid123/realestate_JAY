@@ -20,9 +20,11 @@ nav {
     list-style-type: none;
 }
 
-#nav-items a{
-    border: black;
-    background-color: none;
+.join-us-button{
+    border: 2px solid white;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
 }
 
 nav a {
