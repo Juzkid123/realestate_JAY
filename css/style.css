@@ -4,16 +4,19 @@
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: #ca863dbe;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 20px;
 }
 
 #nav-items {
     display: flex;
     gap: 15pt;
+    font-style: italic;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .list-items {
@@ -35,7 +38,7 @@ nav a {
 }
 
 header {
-    background-image: url(../assets/images/image\ 1.jpg);
+    background-image: url(../assets/images/header_image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -48,7 +51,7 @@ header {
     position: relative;
     top: 50%;
     padding: 30px;
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: #ca863db0;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -284,4 +287,17 @@ grid-row-gap: 0px;
     /* align-items: center; */
     padding: 20px;
     display: flex;
+}
+.join-us-button{
+    border-radius: 10px;
+    font-size: small;
+    border-width: 10px;
+    border-color: rgba(0, 0, 0, 0.425)
+}
+.logo {
+    width: 120px;
+    height: 100px;
+}
+.top-1{
+    font-size: auto;
 }
